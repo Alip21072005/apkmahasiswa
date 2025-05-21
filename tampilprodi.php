@@ -25,9 +25,9 @@
                     <td><?= $d['jenjang']; ?>
                     <td><?= $d['akreditasi']; ?></td>
                     <td class="text-center">
-                        <a href="prodi_edit.php?id=<?= $d['id']; ?>" class="btn btn-warning">
+                        <a href="editprodi.php?id=<?= $d['id']; ?>" class="btn btn-warning">
                             Edit</a>
-                        <a href="prodi_delete.php?id=<?= $d['id']; ?>" class="btn btn-danger"
+                        <a href="hapusprodi.php?id=<?= $d['id']; ?>" class="btn btn-danger"
                             onclick="return confirm('Yakin akan menghapus?');">Hapus</a>
                     </td>
                 </tr>
