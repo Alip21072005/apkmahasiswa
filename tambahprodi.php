@@ -48,7 +48,7 @@ prodi(kdprodi,prodi,jenjang,akreditasi) VALUES ('$kdprodi', '$prodi', '$jenjang'
             </select>
         </div>
         <button type="submit" class="btn btn-primary">Simpan</button>
-        <a href="mhs_read.php" class="btn btn-danger">Batal</a>
+        <a href="tampilprodi.php" class="btn btn-danger">Batal</a>
     </form>
 </div>
 <?php include "footer.php"; ?>
